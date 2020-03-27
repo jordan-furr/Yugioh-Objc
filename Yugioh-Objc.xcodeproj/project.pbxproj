@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C51AFE85242D660200E8E127 /* JEFDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = C51AFE84242D660200E8E127 /* JEFDeck.m */; };
+		C51AFE89242D76E100E8E127 /* JEFDeckTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51AFE88242D76E100E8E127 /* JEFDeckTableViewController.swift */; };
+		C51AFE8B242D7BEB00E8E127 /* JEFCardImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51AFE8A242D7BEB00E8E127 /* JEFCardImageViewController.swift */; };
+		C54C5A42242D3709007E7870 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C54C5A41242D3709007E7870 /* AppDelegate.m */; };
+		C54C5A45242D3709007E7870 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C54C5A44242D3709007E7870 /* SceneDelegate.m */; };
+		C54C5A4B242D3709007E7870 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C54C5A49242D3709007E7870 /* Main.storyboard */; };
+		C54C5A4D242D370B007E7870 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C54C5A4C242D370B007E7870 /* Assets.xcassets */; };
+		C54C5A50242D370B007E7870 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C54C5A4E242D370B007E7870 /* LaunchScreen.storyboard */; };
+		C54C5A53242D370B007E7870 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C54C5A52242D370B007E7870 /* main.m */; };
+		C54C5A5C242D384B007E7870 /* JEFCard.m in Sources */ = {isa = PBXBuildFile; fileRef = C54C5A5B242D384B007E7870 /* JEFCard.m */; };
+		C54C5A5F242D61DA007E7870 /* JEFPicture.m in Sources */ = {isa = PBXBuildFile; fileRef = C54C5A5E242D61DA007E7870 /* JEFPicture.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C51AFE83242D660200E8E127 /* JEFDeck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JEFDeck.h; sourceTree = "<group>"; };
+		C51AFE84242D660200E8E127 /* JEFDeck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JEFDeck.m; sourceTree = "<group>"; };
+		C51AFE87242D76E000E8E127 /* Yugioh-Objc-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Yugioh-Objc-Bridging-Header.h"; sourceTree = "<group>"; };
+		C51AFE88242D76E100E8E127 /* JEFDeckTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JEFDeckTableViewController.swift; sourceTree = "<group>"; };
+		C51AFE8A242D7BEB00E8E127 /* JEFCardImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JEFCardImageViewController.swift; sourceTree = "<group>"; };
+		C54C5A3D242D3709007E7870 /* Yugioh-Objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yugioh-Objc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C54C5A40242D3709007E7870 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C54C5A41242D3709007E7870 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C54C5A43242D3709007E7870 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		C54C5A44242D3709007E7870 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		C54C5A4A242D3709007E7870 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C54C5A4C242D370B007E7870 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C54C5A4F242D370B007E7870 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C54C5A51242D370B007E7870 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C54C5A52242D370B007E7870 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C54C5A5A242D384A007E7870 /* JEFCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JEFCard.h; sourceTree = "<group>"; };
+		C54C5A5B242D384B007E7870 /* JEFCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JEFCard.m; sourceTree = "<group>"; };
+		C54C5A5D242D61DA007E7870 /* JEFPicture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JEFPicture.h; sourceTree = "<group>"; };
+		C54C5A5E242D61DA007E7870 /* JEFPicture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JEFPicture.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C54C5A3A242D3709007E7870 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C51AFE86242D660700E8E127 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C51AFE83242D660200E8E127 /* JEFDeck.h */,
+				C51AFE84242D660200E8E127 /* JEFDeck.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C54C5A34242D3709007E7870 = {
+			isa = PBXGroup;
+			children = (
+				C54C5A3F242D3709007E7870 /* Yugioh-Objc */,
+				C54C5A3E242D3709007E7870 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C54C5A3E242D3709007E7870 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C54C5A3D242D3709007E7870 /* Yugioh-Objc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C54C5A3F242D3709007E7870 /* Yugioh-Objc */ = {
+			isa = PBXGroup;
+			children = (
+				C54C5A49242D3709007E7870 /* Main.storyboard */,
+				C51AFE88242D76E100E8E127 /* JEFDeckTableViewController.swift */,
+				C51AFE8A242D7BEB00E8E127 /* JEFCardImageViewController.swift */,
+				C51AFE86242D660700E8E127 /* Controllers */,
+				C54C5A60242D6560007E7870 /* Models */,
+				C54C5A59242D371B007E7870 /* Resources */,
+				C51AFE87242D76E000E8E127 /* Yugioh-Objc-Bridging-Header.h */,
+			);
+			path = "Yugioh-Objc";
+			sourceTree = "<group>";
+		};
+		C54C5A59242D371B007E7870 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C54C5A40242D3709007E7870 /* AppDelegate.h */,
+				C54C5A41242D3709007E7870 /* AppDelegate.m */,
+				C54C5A43242D3709007E7870 /* SceneDelegate.h */,
+				C54C5A44242D3709007E7870 /* SceneDelegate.m */,
+				C54C5A4C242D370B007E7870 /* Assets.xcassets */,
+				C54C5A4E242D370B007E7870 /* LaunchScreen.storyboard */,
+				C54C5A51242D370B007E7870 /* Info.plist */,
+				C54C5A52242D370B007E7870 /* main.m */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C54C5A60242D6560007E7870 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C54C5A5A242D384A007E7870 /* JEFCard.h */,
+				C54C5A5B242D384B007E7870 /* JEFCard.m */,
+				C54C5A5D242D61DA007E7870 /* JEFPicture.h */,
+				C54C5A5E242D61DA007E7870 /* JEFPicture.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C54C5A3C242D3709007E7870 /* Yugioh-Objc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C54C5A56242D370B007E7870 /* Build configuration list for PBXNativeTarget "Yugioh-Objc" */;
+			buildPhases = (
+				C54C5A39242D3709007E7870 /* Sources */,
+				C54C5A3A242D3709007E7870 /* Frameworks */,
+				C54C5A3B242D3709007E7870 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Yugioh-Objc";
+			productName = "Yugioh-Objc";
+			productReference = C54C5A3D242D3709007E7870 /* Yugioh-Objc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C54C5A35242D3709007E7870 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JEF;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Jordan Furr";
+				TargetAttributes = {
+					C54C5A3C242D3709007E7870 = {
+						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
+					};
+				};
+			};
+			buildConfigurationList = C54C5A38242D3709007E7870 /* Build configuration list for PBXProject "Yugioh-Objc" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C54C5A34242D3709007E7870;
+			productRefGroup = C54C5A3E242D3709007E7870 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C54C5A3C242D3709007E7870 /* Yugioh-Objc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C54C5A3B242D3709007E7870 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C54C5A50242D370B007E7870 /* LaunchScreen.storyboard in Resources */,
+				C54C5A4D242D370B007E7870 /* Assets.xcassets in Resources */,
+				C54C5A4B242D3709007E7870 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C54C5A39242D3709007E7870 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C51AFE8B242D7BEB00E8E127 /* JEFCardImageViewController.swift in Sources */,
+				C54C5A5F242D61DA007E7870 /* JEFPicture.m in Sources */,
+				C54C5A42242D3709007E7870 /* AppDelegate.m in Sources */,
+				C51AFE85242D660200E8E127 /* JEFDeck.m in Sources */,
+				C54C5A53242D370B007E7870 /* main.m in Sources */,
+				C51AFE89242D76E100E8E127 /* JEFDeckTableViewController.swift in Sources */,
+				C54C5A45242D3709007E7870 /* SceneDelegate.m in Sources */,
+				C54C5A5C242D384B007E7870 /* JEFCard.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C54C5A49242D3709007E7870 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C54C5A4A242D3709007E7870 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C54C5A4E242D370B007E7870 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C54C5A4F242D370B007E7870 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C54C5A54242D370B007E7870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C54C5A55242D370B007E7870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C54C5A57242D370B007E7870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Yugioh-Objc/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jordanfurr98.Yugioh-Objc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Yugioh-Objc/Yugioh-Objc-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C54C5A58242D370B007E7870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Yugioh-Objc/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jordanfurr98.Yugioh-Objc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Yugioh-Objc/Yugioh-Objc-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C54C5A38242D3709007E7870 /* Build configuration list for PBXProject "Yugioh-Objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C54C5A54242D370B007E7870 /* Debug */,
+				C54C5A55242D370B007E7870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C54C5A56242D370B007E7870 /* Build configuration list for PBXNativeTarget "Yugioh-Objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C54C5A57242D370B007E7870 /* Debug */,
+				C54C5A58242D370B007E7870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C54C5A35242D3709007E7870 /* Project object */;
+}
